@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// TODO: calcular la suma de los dígitos de un número
+// TODO: Calcular la suma de los dígitos de un número
 int sumaDigitos(int n) {
     int suma = 0;
     while (n > 0) {
@@ -59,8 +59,9 @@ int main() {
     int horas, dia;
 
     cout << "Ingrese dos numeros separados con espacios:" << endl;
-    cout << "El primero es para las horas, y el segundo para los dias sabiendo que (1 = lunes y 7 = domingo):" << endl;
+    cout << "El primero es para las orbitas, y el segundo para los dias sabiendo que (1 = lunes y 7 = domingo):" << endl;
     cin >> horas >> dia;
+
 
     double resultado = calcularTarifa(horas, dia);
     if (resultado == -1) {
